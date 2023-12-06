@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: darinsworkshopregistry.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_665e1ed23c074be1b9a8dd9c2cdf1d7b }}/techboost/dotnetcoreapp:${{ github.sha }}
+        tags: ${{github.run_number}}
         file: ./Dockerfile
 
   deploy:
