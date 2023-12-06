@@ -4,7 +4,7 @@
 name: .NET
 
 env:
-  registryName: DarinsWorkshopRegistry.azurecr.io
+  registryName: darinsworkshopregistry.azurecr.io
   repositoryName: techboost/dotnetcoreapp
   dockerFolderPath: ./Application/src/RazorPagesTestSample
   tag: ${{github.run_number}}
