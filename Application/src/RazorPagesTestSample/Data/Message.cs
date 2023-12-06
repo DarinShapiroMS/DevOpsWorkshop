@@ -7,6 +7,8 @@ namespace RazorPagesTestSample.Data
     {
         public int Id { get; set; }
 
+// another small change
+
         [Required]
         [DataType(DataType.Text)]
         [StringLength(100, ErrorMessage = "There's a 100 character limit on messages. Please shorten your message.")]
